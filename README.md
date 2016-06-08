@@ -1,9 +1,10 @@
-Infinite AJAX Scroll
+无限的AJAX滚动
+
 ====================
 
-A jQuery plugin to turn your paginated pages into infinite scrolling pages with ease.
+一个jQuery插件让你的分页页面进入无限滚动页面轻松。
 
-Downloads, documentation and demos available at: http://infiniteajaxscroll.com/
+下载，文档和演示可在: http://infiniteajaxscroll.com/
 
 [![Build Status](https://travis-ci.org/webcreate/infinite-ajax-scroll.png?branch=master)](https://travis-ci.org/webcreate/infinite-ajax-scroll)
 
@@ -26,33 +27,33 @@ To contribute to Infinite AJAX Scroll please follow these instructions:
 * Run tests
 * Submit your Pull Request
 
-### Installing development tools
+###安装开发工具
 
-1. Install bower components
+1. 安装 bower components
 
     ``` sh
     $ bower install
     ```
 
-2. Install npm modules
+2. 安装 npm modules
 
     ``` sh
     $ npm install
     ```
 
-### Running tests
+### 运行测试
 
-Testing is done with [Busterjs](https://github.com/busterjs/buster) and [Grunt](https://github.com/gruntjs/grunt).
+测试完成[Busterjs](https://github.com/busterjs/buster) and [Grunt](https://github.com/gruntjs/grunt).
 
-1. Start a buster server:
+1. 开始一个克星服务器：
 
     ``` sh
     $ grunt buster::server:block
     ```
 
-2. Launch some browsers and connect to `http://localhost:1111` and capture them.
+2.推出一些浏览器和连接 `http://localhost:1111` 捕捉它们。
 
-3. Run tests:
+3. 运行测试：
 
     ``` sh
     $ grunt buster::test
